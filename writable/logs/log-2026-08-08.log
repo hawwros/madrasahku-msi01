@@ -1,0 +1,145 @@
+CRITICAL - 2026-08-08 03:37:02 --> Error: Class "App\Models\KontakModel" not found
+[Method: GET, Route: kontak]
+in APPPATH\Controllers\Kontak.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(944): App\Controllers\Kontak->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(511): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Hawwin rosyada\\Downloads\\MSI 01\\codeigniter4-framework-ab9bf33\\public\\index.php')
+CRITICAL - 2026-08-08 03:40:07 --> Error: Class "App\Models\KontakModel" not found
+[Method: GET, Route: kontak]
+in APPPATH\Controllers\Kontak.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(944): App\Controllers\Kontak->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(511): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Hawwin rosyada\\Downloads\\MSI 01\\codeigniter4-framework-ab9bf33\\public\\index.php')
+CRITICAL - 2026-08-08 03:40:09 --> Error: Class "App\Models\KontakModel" not found
+[Method: GET, Route: kontak]
+in APPPATH\Controllers\Kontak.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(944): App\Controllers\Kontak->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(511): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Hawwin rosyada\\Downloads\\MSI 01\\codeigniter4-framework-ab9bf33\\public\\index.php')
+DEBUG - 2026-08-08 03:41:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-08 03:41:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-08-08 03:42:03 --> Table 'madrasahku.kontak_pesan' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `kontak_pesan` (`nama`, `email`, `telepon`, `subjek`, `pesan`, `status`, `dibuat_pada`) VALUES (\'Hawwin Amrinaa Rosyada\', \'hawwin.rosyada@gmail.com\', \'089636560528\', \'spmbm\', \'qwertyuioasdfghjk\', \'belum_dibaca\', \'2026-08-08 03:42:03\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kontak_pesan` (`nama`, `email`, `telepon`, `subjek`, `pesan`, `status`, `dibuat_pada`) VALUES (\'Hawwin Amrinaa Rosyada\', \'hawwin.rosyada@gmail.com\', \'089636560528\', \'spmbm\', \'qwertyuioasdfghjk\', \'belum_dibaca\', \'2026-08-08 03:42:03\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kontak_pesan` (`nama`, `email`, `telepon`, `subjek`, `pesan`, `status`, `dibuat_pada`) VALUES (\'Hawwin Amrinaa Rosyada\', \'hawwin.rosyada@gmail.com\', \'089636560528\', \'spmbm\', \'qwertyuioasdfghjk\', \'belum_dibaca\', \'2026-08-08 03:42:03\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2343): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kontak_pesan` (`nama`, `email`, `telepon`, `subjek`, `pesan`, `status`, `dibuat_pada`) VALUES (:nama:, :email:, :telepon:, :subjek:, :pesan:, :status:, :dibuat_pada:)', [...], false)
+ 5 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Kontak.php(44): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Kontak->kirim()
+10 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kontak))
+11 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Hawwin rosyada\\Downloads\\MSI 01\\codeigniter4-framework-ab9bf33\\public\\index.php')
+CRITICAL - 2026-08-08 03:42:03 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'madrasahku.kontak_pesan' doesn't exist
+[Method: POST, Route: kontak/kirim]
+in SYSTEMPATH\Database\BaseConnection.php on line 863.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2343): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kontak_pesan` (`nama`, `email`, `telepon`, `subjek`, `pesan`, `status`, `dibuat_pada`) VALUES (:nama:, :email:, :telepon:, :subjek:, :pesan:, :status:, :dibuat_pada:)', [...], false)
+ 2 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Kontak.php(44): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Kontak->kirim()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kontak))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Hawwin rosyada\\Downloads\\MSI 01\\codeigniter4-framework-ab9bf33\\public\\index.php')
+CRITICAL - 2026-08-08 03:42:03 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'madrasahku.kontak_pesan' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kontak_pesan` (`nama`, `email`, `telepon`, `subjek`, `pesan`, `status`, `dibuat_pada`) VALUES (\'Hawwin Amrinaa Rosyada\', \'hawwin.rosyada@gmail.com\', \'089636560528\', \'spmbm\', \'qwertyuioasdfghjk\', \'belum_dibaca\', \'2026-08-08 03:42:03\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kontak_pesan` (`nama`, `email`, `telepon`, `subjek`, `pesan`, `status`, `dibuat_pada`) VALUES (\'Hawwin Amrinaa Rosyada\', \'hawwin.rosyada@gmail.com\', \'089636560528\', \'spmbm\', \'qwertyuioasdfghjk\', \'belum_dibaca\', \'2026-08-08 03:42:03\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2343): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kontak_pesan` (`nama`, `email`, `telepon`, `subjek`, `pesan`, `status`, `dibuat_pada`) VALUES (:nama:, :email:, :telepon:, :subjek:, :pesan:, :status:, :dibuat_pada:)', [...], false)
+ 4 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Kontak.php(44): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Kontak->kirim()
+ 9 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kontak))
+10 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Hawwin rosyada\\Downloads\\MSI 01\\codeigniter4-framework-ab9bf33\\public\\index.php')
+CRITICAL - 2026-08-08 03:42:03 --> [Caused by] mysqli_sql_exception: Table 'madrasahku.kontak_pesan' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `kontak_pesan` (`nama`, `email`, `telepon`, `subjek`, `pesan`, `status`, `dibuat_pada`) VALUES (\'Hawwin Amrinaa Rosyada\', \'hawwin.rosyada@gmail.com\', \'089636560528\', \'spmbm\', \'qwertyuioasdfghjk\', \'belum_dibaca\', \'2026-08-08 03:42:03\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kontak_pesan` (`nama`, `email`, `telepon`, `subjek`, `pesan`, `status`, `dibuat_pada`) VALUES (\'Hawwin Amrinaa Rosyada\', \'hawwin.rosyada@gmail.com\', \'089636560528\', \'spmbm\', \'qwertyuioasdfghjk\', \'belum_dibaca\', \'2026-08-08 03:42:03\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kontak_pesan` (`nama`, `email`, `telepon`, `subjek`, `pesan`, `status`, `dibuat_pada`) VALUES (\'Hawwin Amrinaa Rosyada\', \'hawwin.rosyada@gmail.com\', \'089636560528\', \'spmbm\', \'qwertyuioasdfghjk\', \'belum_dibaca\', \'2026-08-08 03:42:03\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2343): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kontak_pesan` (`nama`, `email`, `telepon`, `subjek`, `pesan`, `status`, `dibuat_pada`) VALUES (:nama:, :email:, :telepon:, :subjek:, :pesan:, :status:, :dibuat_pada:)', [...], false)
+ 5 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Kontak.php(44): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Kontak->kirim()
+10 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kontak))
+11 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Hawwin rosyada\\Downloads\\MSI 01\\codeigniter4-framework-ab9bf33\\public\\index.php')
+DEBUG - 2026-08-08 03:46:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-08 03:46:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-08 03:47:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-08 03:47:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-08 03:48:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-08 06:04:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-08 06:15:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-08-08 07:31:16 --> Error: Class "App\Models\SettingModel" not found
+[Method: GET, Route: kontak]
+in APPPATH\Controllers\BaseController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(945): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(511): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Hawwin rosyada\\Downloads\\MSI 01\\codeigniter4-framework-ab9bf33\\public\\index.php')
+DEBUG - 2026-08-08 07:31:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-08 07:32:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-08 07:32:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-08 07:32:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-08-08 07:38:46 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\KontakModel::getSettings
+[Method: GET, Route: kontak]
+in SYSTEMPATH\Model.php on line 763.
+ 1 APPPATH\Controllers\Kontak.php(30): CodeIgniter\Model->__call('getSettings', [])
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Kontak->index()
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kontak))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Hawwin rosyada\\Downloads\\MSI 01\\codeigniter4-framework-ab9bf33\\public\\index.php')
+DEBUG - 2026-08-08 07:41:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-08 07:41:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-08 07:42:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-08 07:42:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-08 09:18:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-08 09:18:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-08 09:19:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-08 09:19:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-08 09:21:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-08 09:22:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-08 09:22:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-08 09:22:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-08 09:22:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-08 09:33:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-08 09:33:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-08 09:36:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

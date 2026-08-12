@@ -1,0 +1,33 @@
+DEBUG - 2026-08-04 04:25:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 04:42:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-08-04 04:46:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-08-04 05:01:11 --> ErrorException: Undefined variable $service
+[Method: GET, Route: akademik]
+in APPPATH\Views\Akademik\index.php on line 3.
+ 1 APPPATH\Views\Akademik\index.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $service', 'C:\\Users\\Hawwin rosyada\\Downloads\\MSI 01\\codeigniter4-framework-ab9bf33\\app\\Views\\Akademik\\index.php', 3)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\Users\\Hawwin rosyada\\Downloads\\MSI 01\\codeigniter4-framework-ab9bf33\\app\\Views\\Akademik\\index.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1254): CodeIgniter\View\View->render('akademik/index', [], true)
+ 5 APPPATH\Controllers\Akademik.php(43): view('akademik/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Akademik->index()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akademik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Hawwin rosyada\\Downloads\\MSI 01\\codeigniter4-framework-ab9bf33\\public\\index.php')
+CRITICAL - 2026-08-04 05:11:31 --> ErrorException: Undefined variable $service
+[Method: GET, Route: akademik]
+in APPPATH\Views\Akademik\index.php on line 3.
+ 1 APPPATH\Views\Akademik\index.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $service', 'C:\\Users\\Hawwin rosyada\\Downloads\\MSI 01\\codeigniter4-framework-ab9bf33\\app\\Views\\Akademik\\index.php', 3)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\Users\\Hawwin rosyada\\Downloads\\MSI 01\\codeigniter4-framework-ab9bf33\\app\\Views\\Akademik\\index.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1254): CodeIgniter\View\View->render('akademik/index', [], true)
+ 5 APPPATH\Controllers\Akademik.php(43): view('akademik/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Akademik->index()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akademik))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Hawwin rosyada\\Downloads\\MSI 01\\codeigniter4-framework-ab9bf33\\public\\index.php')
